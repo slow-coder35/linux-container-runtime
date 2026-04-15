@@ -12,9 +12,8 @@ A lightweight Linux container runtime built in C, featuring:
 ## Team Information
 
 **Team Members:**
-- Single student submission (OS-Jackfruit Project)
-
-**SRN:** [Add your SRN here]
+- Prawjal Deshpadne (PES1UG24CS589)
+- Harivasan R (PES1UG24CS572)
 
 ---
 

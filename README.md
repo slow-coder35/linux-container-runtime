@@ -481,14 +481,14 @@ The following 8 screenshots demonstrate each required task:
 
 ```
 boilerplate/
-├── engine.c                  # User-space runtime + CLI (1255 lines, fixed)
-├── monitor.c                 # Kernel module memory monitor (provided)
+├── engine.c                  # User-space runtime + CLI 
+├── monitor.c                 # Kernel module memory monitor 
 ├── monitor_ioctl.h           # Shared ioctl definitions
 ├── cpu_hog.c                 # CPU-bound workload
 ├── io_pulse.c                # I/O-bound workload
 ├── memory_hog.c              # Memory-consuming workload
 ├── Makefile                  # Build system
-├── run_experiments.sh         # Experiment runner (new)
+├── run_experiments.sh         # Experiment runner 
 ├── environment-check.sh       # Preflight checks
 ├── logs/                      # Per-container log files (created at runtime)
 └── screenshots/              # Demo evidence (8 images)
@@ -608,4 +608,4 @@ dmesg | grep container_monitor
 GPL (kernel module requirement)
 
 **Date:** April 2026  
-**Status:** Complete implementation with all fixes and documentation
+
